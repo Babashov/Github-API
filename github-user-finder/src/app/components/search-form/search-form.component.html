@@ -1,0 +1,31 @@
+<div class="row valign-wrapper">
+    <div class="col s6 offset-s3 valign">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Enter Username</span>
+          
+		    <div class="row">
+				    <form #myform="ngForm" (ngSubmit)="onSubmit(myform)" novalidate class="col s12">
+				      <div class="row">
+				        <div class="input-field col s12">
+				          <input id="username" name="username" type="text" ngModel>
+				          <label for="username">Username</label>
+				        </div>
+				      </div>
+				      <div class="row">
+				      	<div class="input-field col s6">
+				          <input type="submit" class="waves-effect waves-light btn" value="Search">
+				        </div>
+				      </div>
+				    </form>
+		  	</div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+ </div>
